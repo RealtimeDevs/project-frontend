@@ -1,0 +1,65 @@
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+}
+
+.login-container h1 {
+  color: #2563eb;
+  font-size: 32px;
+}
+
+.login-container p {
+  color: #64748b;
+}
+
+.app-container {
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: white;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.app-header h2 {
+  margin: 0;
+  color: #2563eb;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background: #dc2626;
+}
+
+.welcome-content {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.welcome-content h1 {
+  font-size: 32px;
+  color: #0f172a;
+}
+
+.welcome-content p {
+  margin-top: 12px;
+  color: #64748b;
+}
